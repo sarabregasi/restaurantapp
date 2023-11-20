@@ -1,19 +1,12 @@
-import React from 'react'
-import Delivery from '../img/delivery.png'
+import React from 'react';
+import HomeContainer from './HomeContainer';
+
 const MainContainer = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
-      <div className='py-2 flex-1 flex flex-col items-start md:items-center justify-center'>
-      <div className='flex items-center gap-2 justify-center'>
-        <p>Bike Delivery</p>
-        <div className='w-10 h-10 bg-white rounded-full overflow-hidden'>
-        <img src={Delivery} className='w-full h-full object-contain' alt='delivery' />
-        </div>
-      </div>
-      </div>
-      <div className='py-2 bg-blue-400 flex-1'></div>
+    <div className='w-full h-auto flex flex-col items-center justify-center'>
+      <HomeContainer/>
     </div>
   )
 }
 
-export default MainContainer
+export default MainContainer;
