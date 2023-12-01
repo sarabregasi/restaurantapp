@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Loader = () => {
   return (
@@ -18,7 +18,7 @@ const Loader = () => {
         fill="currentFill"
       />
     </svg>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;
